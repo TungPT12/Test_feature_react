@@ -1,0 +1,6 @@
+.messages-icon,
+.inbox-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

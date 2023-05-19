@@ -1,0 +1,32 @@
+.slider {
+  height: 100px;
+  width: 400px;
+  overflow-x: scroll;
+  display: block;
+  white-space: nowrap;
+  /* flex-direction: row; */
+    transition: ease   10s;
+    /* transform: ; */
+  /* animation-delay: 10s; */
+}
+
+.App {
+  display: flex;
+}
+
+img {
+  margin: 0px 3px;
+  height: auto;
+  width: 160px;
+  animation: linear  0s 1;
+ 
+}
+
+.name {
+    width: 600px;
+    /* displ ay: flex; */
+  }
+
+.hidden {
+  overflow: hidden;
+}

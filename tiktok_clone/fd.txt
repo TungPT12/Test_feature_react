@@ -1,0 +1,14 @@
+- npm i classnames
+
+---------------------------
+hover & opacity
+
+------
+fonts trong assets
+
+--------------------------------------------------
+Call api
+- xmlhttprequest
+- fetch
+- thư viện
+	(axios, superagent)

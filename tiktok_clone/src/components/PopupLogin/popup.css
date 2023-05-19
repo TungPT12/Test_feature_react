@@ -1,0 +1,14 @@
+.display-block {
+    z-index: 100;
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity: 0.6;
+    background-color: #fff;
+}
+
+.display-none {
+    display: none;
+}

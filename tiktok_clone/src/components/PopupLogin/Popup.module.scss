@@ -1,0 +1,13 @@
+.wrapper-display-block {
+    z-index: 100;
+    position: absolute;
+    height: 1000px;
+    width: 1000px;
+    background-color: #fff;
+    opacity: 0.6;
+    display: block;
+}
+
+.wrapper-display-none{
+    display: none;
+}

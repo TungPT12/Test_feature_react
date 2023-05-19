@@ -1,0 +1,21 @@
+.left-icon {
+    padding: 0px 10px;
+    padding-top: 5px;
+}
+
+.wrapper-menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    &:hover {
+        background-color: rgb(232, 229, 229);
+        cursor: pointer;
+    }
+}
+
+.title {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

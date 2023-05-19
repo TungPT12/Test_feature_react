@@ -1,0 +1,36 @@
+.search-list {
+    background-color: #fff;
+    width: 361px;
+    max-height: 557.6px;
+    overflow-y: auto;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0/ 12%) 0px 2px 12px;
+    padding-top: 10px;
+    &::-webkit-scrollbar {
+        height: 10px;
+        width: 6px;
+        border-radius: 3px;
+        background: rgba(22, 24, 35, 0.06);
+      }
+    
+    //   &::-webkit-scrollbar-track {
+    //     border-radius: 10px;
+    //     background: rgb(247, 242, 242);
+    //     // border: 1px solid #ccc;
+    //   }
+      &::-webkit-scrollbar-thumb {
+        border-radius: 30px;
+        background: linear-gradient(left, #fff, #e4e4e4);
+        border: 1px solid rgb(247, 242, 242);
+        opacity: 0.6;
+      }
+}
+
+.show-result {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    padding: 0px 20px;
+    font-weight: 600;
+}
+

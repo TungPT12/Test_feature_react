@@ -1,0 +1,52 @@
+.icon {
+    padding-left:15px;
+    padding-right:10px;
+}
+
+.text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 65px;
+    // margin-left: 15px;
+    margin-right: 10px;
+}
+
+.row-menu {
+    padding: 9px 16px;
+    cursor: pointer;
+    background: rgba(22, 24, 35, 0.03);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #000;
+    &:hover {
+        background-color: rgb(232, 229, 229);
+        cursor: pointer;
+        // border-radius: 10px;
+    }
+}
+
+.name {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nick-name {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+

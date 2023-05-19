@@ -1,0 +1,19 @@
+.wrapper {
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    width: 1150px;
+    // float: left;
+    margin-top: 60px;
+    display: flex;
+    background-color: aqua;
+    min-height: 1000px;
+}
+
+.content {
+    // position: relative;
+    // right: 0px;
+    flex: 1;
+}
