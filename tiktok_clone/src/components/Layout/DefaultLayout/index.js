@@ -2,13 +2,13 @@ import Header from "../components/Header";
 import Sidebar from "./Sidebar";
 import styles from './DefaultLayout.module.scss'
 // import classNames from "classnames";
-function DefaultLayout( {children}) {
+function DefaultLayout(props, { prop, children }) {
     return (
         <div className={styles['wrapper']}>
-            <Header/>
+            <Header />
             <div className={styles['container']}>
-                <Sidebar/>
-                <div className={styles['content']}> 
+                <Sidebar />
+                <div className={styles['content']}>
                     {children}
                 </div>
             </div>
